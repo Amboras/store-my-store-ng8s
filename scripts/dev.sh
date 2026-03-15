@@ -80,7 +80,7 @@ sleep 3
 # Start storefront
 (
     echo "=== STOREFRONT STARTING ==="
-    cd storefront-templates/minimal
+    cd storefront
     npm run dev 2>&1 | while IFS= read -r line; do
         echo "[STOREFRONT] $line"
     done
