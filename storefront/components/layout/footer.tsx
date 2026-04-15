@@ -47,12 +47,12 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <Link href="/" className="inline-block">
-              <span className="font-heading text-2xl font-semibold">
-                Store
+              <span className="font-heading text-2xl font-semibold tracking-tight">
+                AMBORAS
               </span>
             </Link>
             <p className="mt-4 text-sm text-muted-foreground leading-relaxed max-w-xs">
-              Curated products crafted with care. Quality you can feel, design you can see.
+              Bold graphic tees for those who refuse to blend in. Limited drops. Premium cotton. Screen-printed in the USA.
             </p>
           </div>
 
@@ -114,7 +114,7 @@ export default function Footer() {
             >
               Manage Cookies
             </button>
-            <span className="text-xs text-muted-foreground">Powered by Amboras</span>
+            <span className="text-xs text-muted-foreground">&copy; {new Date().getFullYear()} Amboras. All rights reserved.</span>
           </div>
         </div>
       </div>
